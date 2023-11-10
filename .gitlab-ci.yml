@@ -8,7 +8,7 @@ deploy:
   script:
     - dotnet build -c Release
     - dotnet pack -c Release
-    - dotnet nuget add source "https://gitlab.com/api/v4/groups/75922333/-/packages/nuget/index.json" --name gitlab --username juliano4537 --password $CI_JOB_TOKEN 
+    - dotnet nuget add source "https://gitlab.com/api/v4/groups/75922333/-/packages/nuget/index.json" --name gitlab --username juliano4537 --password glpat-u9sxWBuTVVxHpWSvespz --store-password-in-clear-tex
     - dotnet nuget push "bin/Release/*.nupkg" --source gitlab
   only:
     - main
