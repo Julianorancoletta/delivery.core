@@ -18,3 +18,7 @@ If you want to learn more about creating good readme files then refer the follow
 - [ASP.NET Core](https://github.com/aspnet/Home)
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+
+
+dotnet nuget push "bin/Release/Delivery.Core.1.1.0.nupkg" --source https://gitlab.com/api/v4/projects/50968474/packages/nuget/index.json --api-key glpat-u9sxWBuTVVxHpWSvespz
